@@ -74,7 +74,11 @@ label {
         }
 
         &:hover {
-            border: 2px solid #f1c40f;
+            // border: 2px solid #f1c40f;
+            color: yellow;
+            .startext{
+                color:#fff;
+            }
         }
 
     }

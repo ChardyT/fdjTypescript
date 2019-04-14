@@ -5,12 +5,20 @@ html {
 }
 
 
+
+
+.montant {
+    /* border: 2px #2980b9 solid; */
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
 .center {
     background: #fff;
     padding: 5px;
     display: flex;
     /* flex-wrap: wrap; */
-    width: 800px;
+    width: 900px;
     height: 400px;
     position: absolute;
     top: 50%;
@@ -44,8 +52,8 @@ html {
 }
 
 .topleft {
-   display: flex;
-   justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .bottomright {
@@ -53,4 +61,5 @@ html {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly; */
+    margin-top: 65px;
 }

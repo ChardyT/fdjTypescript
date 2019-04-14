@@ -177,7 +177,7 @@ class App extends Component <Props, State>{
         </div>
         <div className="rightSide">
              <div className="topright">
-                  <input type="text" value={this.getAmount().toString()} placeholder="montant 0 £"/>
+                <span className="montant">Mise totale {this.getAmount().toString()} €</span>
              </div>
              <div className="bottomright">
          
